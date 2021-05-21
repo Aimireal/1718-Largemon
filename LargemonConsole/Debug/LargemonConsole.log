@@ -1,0 +1,34 @@
+﻿  mapmain.cpp
+c:\users\user1\source\repos\largemonconsole\largemonconsole\battle.h(16): error C3646: 'generateOpponent': unknown override specifier
+c:\users\user1\source\repos\largemonconsole\largemonconsole\battle.h(16): error C2059: syntax error: '('
+c:\users\user1\source\repos\largemonconsole\largemonconsole\battle.h(16): error C2238: unexpected token(s) preceding ';'
+c:\users\user1\source\repos\largemonconsole\largemonconsole\battle.h(17): error C2061: syntax error: identifier 'WildLargemon'
+c:\users\user1\source\repos\largemonconsole\largemonconsole\mapmain.cpp(34): error C3861: 'WildEncounter': identifier not found
+c:\users\user1\source\repos\largemonconsole\largemonconsole\mapmain.cpp(214): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  main.cpp
+c:\users\user1\source\repos\largemonconsole\largemonconsole\battle.h(16): error C3646: 'generateOpponent': unknown override specifier
+c:\users\user1\source\repos\largemonconsole\largemonconsole\battle.h(16): error C2059: syntax error: '('
+c:\users\user1\source\repos\largemonconsole\largemonconsole\battle.h(16): error C2238: unexpected token(s) preceding ';'
+c:\users\user1\source\repos\largemonconsole\largemonconsole\battle.h(17): error C2061: syntax error: identifier 'WildLargemon'
+c:\users\user1\source\repos\largemonconsole\largemonconsole\main.cpp(166): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Battle.cpp
+c:\users\user1\source\repos\largemonconsole\largemonconsole\battle.h(16): error C3646: 'generateOpponent': unknown override specifier
+c:\users\user1\source\repos\largemonconsole\largemonconsole\battle.h(16): error C2059: syntax error: '('
+c:\users\user1\source\repos\largemonconsole\largemonconsole\battle.h(16): error C2238: unexpected token(s) preceding ';'
+c:\users\user1\source\repos\largemonconsole\largemonconsole\battle.h(17): error C2061: syntax error: identifier 'WildLargemon'
+c:\users\user1\source\repos\largemonconsole\largemonconsole\battle.cpp(17): error C2512: 'WildLargemon': no appropriate default constructor available
+  c:\users\user1\source\repos\largemonconsole\largemonconsole\wildlargemon.h(8): note: see declaration of 'WildLargemon'
+c:\users\user1\source\repos\largemonconsole\largemonconsole\battle.cpp(20): error C2039: 'generateOpponent': is not a member of 'Battle'
+  c:\users\user1\source\repos\largemonconsole\largemonconsole\battle.h(11): note: see declaration of 'Battle'
+c:\users\user1\source\repos\largemonconsole\largemonconsole\battle.cpp(35): error C2039: 'generateOpponent': is not a member of 'Battle'
+  c:\users\user1\source\repos\largemonconsole\largemonconsole\battle.h(11): note: see declaration of 'Battle'
+c:\users\user1\source\repos\largemonconsole\largemonconsole\battle.cpp(35): error C2512: 'WildLargemon': no appropriate default constructor available
+  c:\users\user1\source\repos\largemonconsole\largemonconsole\wildlargemon.h(8): note: see declaration of 'WildLargemon'
+c:\users\user1\source\repos\largemonconsole\largemonconsole\battle.cpp(37): error C3861: 'captureAttempt': identifier not found
+c:\users\user1\source\repos\largemonconsole\largemonconsole\battle.cpp(50): error C2660: 'Battle::WildBattle': function does not take 2 arguments
+c:\users\user1\source\repos\largemonconsole\largemonconsole\battle.cpp(55): error C2511: 'void Battle::WildBattle(Trainer *,WildLargemon *)': overloaded member function not found in 'Battle'
+  c:\users\user1\source\repos\largemonconsole\largemonconsole\battle.h(11): note: see declaration of 'Battle'
+c:\users\user1\source\repos\largemonconsole\largemonconsole\battle.cpp(63): error C2082: redefinition of formal parameter 'opponentPTR'
+c:\users\user1\source\repos\largemonconsole\largemonconsole\battle.cpp(70): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\user1\source\repos\largemonconsole\largemonconsole\battle.cpp(203): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Generating Code...

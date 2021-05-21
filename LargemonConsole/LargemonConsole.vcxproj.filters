@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Battle Files">
+      <UniqueIdentifier>{7f910d56-da2f-4876-b87b-36761ccd2c55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Map Files">
+      <UniqueIdentifier>{a262237d-97c5-480e-871e-909f329621c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Trainer Files">
+      <UniqueIdentifier>{8290ded7-f31a-4a75-8b7f-11b7a7ff8693}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Battle Files">
+      <UniqueIdentifier>{67e6807b-f72b-427e-9d79-9576007547ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Map Files">
+      <UniqueIdentifier>{51b7279b-3421-4f00-8598-8a71466d341b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Trainer Files">
+      <UniqueIdentifier>{8f1fc2e6-6d80-4ddd-a3d9-e1c21b5585fb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Battle.h">
+      <Filter>Header Files\Battle Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WildLargemon.h">
+      <Filter>Header Files\Battle Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Location.h">
+      <Filter>Header Files\Map Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mapmain.h">
+      <Filter>Header Files\Map Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Attacks.h">
+      <Filter>Header Files\Trainer Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Items.h">
+      <Filter>Header Files\Trainer Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>Header Files\Trainer Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Trainer.h">
+      <Filter>Header Files\Trainer Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>Header Files\Map Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Battle.cpp">
+      <Filter>Source Files\Battle Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WildLargemon.cpp">
+      <Filter>Source Files\Battle Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Location.cpp">
+      <Filter>Source Files\Map Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Source Files\Map Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mapmain.cpp">
+      <Filter>Source Files\Map Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Attacks.cpp">
+      <Filter>Source Files\Trainer Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>Source Files\Trainer Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Trainer.cpp">
+      <Filter>Source Files\Trainer Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Items.cpp">
+      <Filter>Source Files\Trainer Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+</Project>
